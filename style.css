@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
     user-select: none;
-    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -50,6 +50,7 @@ header nav ul li a {
 }
 
 .main1 {
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +67,7 @@ header nav ul li a {
     color: var(--global-font-color);
     font-size: 3.5rem;
     font-weight: 700;
+    line-height: 100%;
 }
 
 .main1 .mb-air-tag {
@@ -79,6 +81,11 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
     gap: 5em;
+}
+
+.main1 .learn-more p, .main1 .buy p {
+    color: var(--global-font-color);
+
 }
 
 .main1 img {
