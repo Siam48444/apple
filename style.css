@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
     user-select: none;
+    overflow: hidden;
 }
 
 :root {
@@ -49,9 +50,26 @@ header nav ul li a {
 }
 
 .main1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
     margin: 0;
     padding: 0;
     width: 1265px;
     height: 692px;
     background-color: var(--global-body-color);
+}
+
+.main1 img {
+    width: 1265px;
+    transform: scale(2.5);
+}
+
+.main1 .mb-air-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5em;
 }
