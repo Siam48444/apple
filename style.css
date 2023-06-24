@@ -7,3 +7,9 @@
     font-family: "poppins", sans-serif;
     user-select: none;
 }
+
+:root {
+    --global-background-color: #fbfbfdcc;
+    --global-font-color: #000000cc;
+    --global-link-color: #0066CC;
+}
