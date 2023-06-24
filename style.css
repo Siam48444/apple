@@ -221,3 +221,20 @@ header nav ul li a {
 .main2 img {
     width: 1265px;
 }
+
+.main3 {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--global-body-color);
+    margin: auto;
+    padding: 0;
+    width: 1265px;
+    height: 736px;
+    background-image: url(images/iphone-14-pro.jpg);
+    background-position: center;
+}
+
+.main3 
