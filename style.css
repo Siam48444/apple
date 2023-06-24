@@ -47,3 +47,11 @@ header nav ul li a {
     font-weight: 400;
     font-size: 0.75rem;
 }
+
+.main1 {
+    margin: 0;
+    padding: 0;
+    width: 1265px;
+    height: 692px;
+    background-color: var(--global-body-color);
+}
