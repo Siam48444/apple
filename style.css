@@ -13,3 +13,18 @@
     --global-font-color: #000000cc;
     --global-link-color: #0066CC;
 }
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 7.53125em;
+    padding: 0 1.375em;
+}
