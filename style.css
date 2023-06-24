@@ -58,9 +58,10 @@ header nav ul li a {
     background-color: transparent;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1265px;
     height: 690px;
     background-color: var(--global-body-color);
+    position: top center;
 }
 
 .main1 .mac-book-air {
@@ -81,11 +82,16 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
     gap: 5em;
+    z-index: 1;
 }
 
-.main1 .learn-more p, .main1 .buy p {
-    color: var(--global-font-color);
-
+.main1 .mb-air-links .learn-more p, 
+.main1 .mb-air-links .buy p {
+    cursor: pointer;
+    margin-top: 1em;
+    color: var(--global-link-color);
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .main1 img {
