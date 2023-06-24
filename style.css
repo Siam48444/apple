@@ -198,3 +198,12 @@ header nav ul li a {
 .main2 .college-save-shop a:hover::after {
     opacity: 1;
 }
+
+.main2 .college-save-shop:hover #svg-s {
+    transform: translateX(0.5em);
+}
+
+.main2 .college-save-shop svg {
+    fill: var(--global-link-color);
+    transition: transform 300ms;
+}
