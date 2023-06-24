@@ -125,6 +125,11 @@ header nav ul li a {
     transition: none;
 }
 
+.main1 .mb-air-links .learn-more:hover #svg-lm,
+.main1 .mb-air-links .buy:hover #svg-b {
+    transform: translateX(0.5em);
+}
+
 .main1 .mb-air-links .learn-more svg,
 .main1 .mb-air-links .buy svg {
     fill: var(--global-link-color);
