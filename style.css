@@ -87,23 +87,51 @@ header nav ul li a {
     justify-content: space-between;
     gap: 5em;
     z-index: 1;
+    margin-top: 1em;
 }
 
-.main1 .mb-air-links .learn-more p, 
-.main1 .mb-air-links .buy p {
+.main1 .mb-air-links .learn-more,
+.main1 .mb-air-links .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1 .mb-air-links .learn-more a, 
+.main1 .mb-air-links .buy a {
     cursor: pointer;
-    margin-top: 1em;
     color: var(--global-link-color);
     font-size: 1.2rem;
     font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+
+.main1 .mb-air-links .learn-more a::after,
+.main1 .mb-air-links .buy a::after {
+    content: "";
+    width: 100%;
+    height: .1em;
+    background-color: var(--global-link-color);
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    opacity: 0;
+}
+
+.main1 .mb-air-links .learn-more a:hover::after,
+.main1 .mb-air-links .buy a:hover::after {
+    opacity: 1;
+    transition: none;
+}
+
+.main1 .mb-air-links .learn-more svg,
+.main1 .mb-air-links .buy svg {
+    fill: var(--global-link-color);
+    transition: transform 300ms;
 }
 
 .main1 img {
     width: 1265px;
-    transform: scale(2.5);
-}
-
-.ll {
-    height: 300em;
-    background-color: red;
+    transform: scale(2.3);
 }
