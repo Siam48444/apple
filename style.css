@@ -23,16 +23,20 @@ body {
 }
 
 header {
+    z-index: 2;
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: var(--global-background-color);
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
 }
 
 header nav ul li {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 0.5em;
     margin: 0 7.53125em;
     padding: 0 1.375em;
@@ -97,4 +101,9 @@ header nav ul li a {
 .main1 img {
     width: 1265px;
     transform: scale(2.5);
+}
+
+.ll {
+    height: 300em;
+    background-color: red;
 }
