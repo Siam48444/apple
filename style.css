@@ -16,7 +16,7 @@
 
 header {
     margin: 0;
-    padding: 0;
+    padding: 0.8em;
     width: 100%;
     background-color: transparent;
 }
@@ -27,4 +27,13 @@ header nav ul li {
     justify-content: space-around;
     margin: 0 7.53125em;
     padding: 0 1.375em;
+    list-style: none;
+}
+
+header nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--global-font-color);
+    font-weight: 400;
+    font-size: 0.75rem;
 }
