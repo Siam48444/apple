@@ -159,6 +159,7 @@ header nav ul li a {
     flex-direction: column;
     padding: 0;
     position: absolute;
+    margin: auto;
     top: 5em;
 }
 
@@ -224,17 +225,61 @@ header nav ul li a {
 
 .main3 {
     overflow: hidden;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: var(--global-body-color);
     margin: auto;
     padding: 0;
     width: 1265px;
     height: 736px;
     background-image: url(images/iphone-14-pro.jpg);
     background-position: center;
+    position: relative;
 }
 
-.main3 
+.main3 .main3-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.main3 .iphone {
+    color: var(--global-body-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+.main3 .iphone-tag {
+    color: var(--global-body-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.main3 .iphone-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5em;
+    z-index: 1;
+    margin-top: 1em;
+}
+
+.main3 .iphone-links .learn-more,
+.main3 .iphone-links .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3 .iphone-links .learn-more a,
+.main3 .iphone-links .buy a {
+    cursor: pointer;
+    color: var(--global-link-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
