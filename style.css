@@ -140,19 +140,29 @@ header nav ul li a {
 }
 
 .main2 {
+    position: relative;
+    background-color: var(--global-body-color);
+    width: 1265px;
+    height: 736px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main2 .main2-texts {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--global-body-color);
-    margin: auto;
     padding: 0;
-    width: 1265px;
-    height: 736px;
+    position: absolute;
+    top: 5em;
 }
 
-.main2 .college-save {
+.main2 .main2-texts .college-save {
     color: var(--global-font-color);
     font-size: 3.5rem;
     font-weight: 700;
@@ -160,13 +170,13 @@ header nav ul li a {
     text-align: center;
 }
 
-.main2 .college-save-plus {
+.main2 .main2-texts .college-save-plus {
     color: var(--global-font-color);
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-.main2 .college-save-shop {
+.main2 .main2-texts .college-save-shop {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,7 +184,7 @@ header nav ul li a {
     z-index: 1;
 }
 
-.main2 .college-save-shop a {
+.main2 .main2-texts .college-save-shop a {
     cursor: pointer;
     color: var(--global-link-color);
     font-size: 1.2rem;
@@ -183,7 +193,7 @@ header nav ul li a {
     position: relative;
 }
 
-.main2 .college-save-shop a::after {
+.main2 .main2-texts .college-save-shop a::after {
     content: "";
     width: 100%;
     height: .1em;
@@ -195,15 +205,19 @@ header nav ul li a {
     transition: opacity 300ms;
 }
 
-.main2 .college-save-shop a:hover::after {
+.main2 .main2-texts .college-save-shop a:hover::after {
     opacity: 1;
 }
 
-.main2 .college-save-shop:hover #svg-s {
+.main2 .main2-texts .college-save-shop:hover #svg-s {
     transform: translateX(0.5em);
 }
 
-.main2 .college-save-shop svg {
+.main2 .main2-texts .college-save-shop svg {
     fill: var(--global-link-color);
     transition: transform 300ms;
+}
+
+.main2 img {
+    width: 1265px;
 }
