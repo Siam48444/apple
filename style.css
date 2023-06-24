@@ -70,7 +70,7 @@ header nav ul li a {
     color: var(--global-font-color);
     font-size: 3.5rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 120%;
 }
 
 .main1 .mb-air-tag {
@@ -150,4 +150,51 @@ header nav ul li a {
     padding: 0;
     width: 1265px;
     height: 736px;
+}
+
+.main2 .college-save {
+    color: var(--global-font-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+.main2 .college-save-plus {
+    color: var(--global-font-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.main2 .college-save-shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    z-index: 1;
+}
+
+.main2 .college-save-shop a {
+    cursor: pointer;
+    color: var(--global-link-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+
+.main2 .college-save-shop a::after {
+    content: "";
+    width: 100%;
+    height: .1em;
+    background-color: var(--global-link-color);
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.main2 .college-save-shop a:hover::after {
+    opacity: 1;
 }
