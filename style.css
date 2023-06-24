@@ -309,3 +309,8 @@ header nav ul li a {
     fill: var(--global-link-light-color);
     transition: transform 300ms;
 }
+
+.main3 .iphone-links .learn-more:hover #svg-lm2,
+.main3 .iphone-links .buy:hover #svg-b2 {
+    transform: translateX(0.5em);
+}
