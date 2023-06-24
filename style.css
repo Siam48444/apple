@@ -59,13 +59,11 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: transparent;
-    margin: 0;
+    background-color: var(--global-body-color);
+    margin: auto;
     padding: 0;
     width: 1265px;
-    height: 690px;
-    background-color: var(--global-body-color);
-    position: top center;
+    height: 692px;
 }
 
 .main1 .mac-book-air {
@@ -117,12 +115,12 @@ header nav ul li a {
     bottom: 3px;
     left: 0;
     opacity: 0;
+    transition: opacity 300ms;
 }
 
 .main1 .mb-air-links .learn-more a:hover::after,
 .main1 .mb-air-links .buy a:hover::after {
     opacity: 1;
-    transition: none;
 }
 
 .main1 .mb-air-links .learn-more:hover #svg-lm,
@@ -141,3 +139,15 @@ header nav ul li a {
     transform: scale(2.3);
 }
 
+.main2 {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--global-body-color);
+    margin: auto;
+    padding: 0;
+    width: 1265px;
+    height: 736px;
+}
