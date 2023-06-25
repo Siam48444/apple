@@ -338,6 +338,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    outline: 3px solid red;
 }
 
 .footer-items .footer-link1,
@@ -351,12 +352,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5em;
 }
 
 .footer-items .second-row-items .middle-texts {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1.5em;
 }
 
 footer p {
