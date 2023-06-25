@@ -325,14 +325,14 @@ header nav ul li a:hover {
 }
 
 footer {
-    height: 58px;
-    width: 980px;
     padding: 2.1875em 7.53125em;
     background-color: var(--global-body-color);
     margin: auto;
 }
 
 .footer-items {
+    height: 58px;
+    width: 980px;
     background-color: var(--global-body-color);
     display: flex;
     align-items: center;
