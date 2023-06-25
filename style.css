@@ -15,17 +15,7 @@
     --global-font-color: #1d1d1f;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
-    --scrollbar-color: #b0b0b0;
     --footer-font-color: #48484b;
-}
-
-::-webkit-scrollbar {
-    width: 0.5em;
-    margin: 0.5em 0 0.5em 0;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-color);
 }
 
 body {
