@@ -9,21 +9,22 @@
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    width: 1em;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--global-link-color);
-}
-
 :root {
     --global-background-color: #fbfbfdcc;
     --global-body-color: #f5f5f7;
     --global-font-color: #1d1d1f;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
-    --scrollbar-color: ;
+    --scrollbar-color: #b0b0b0;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
 }
 
 body {
@@ -46,7 +47,7 @@ header {
 header nav ul li {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0.5em;
     margin: 0 7.53125em;
     padding: 0 1.375em;
