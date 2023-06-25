@@ -350,6 +350,13 @@ footer {
     flex-direction: column;
 }
 
+.footer-items .footer-link1,
+.footer-items .footer-link2 {
+    color: var(--global-link-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .footer-items .second-row-items {
     display: flex;
     align-items: center;
