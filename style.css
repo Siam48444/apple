@@ -15,7 +15,7 @@
     --global-font-color: #1d1d1f;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
-    --footer-font-color: #515153;
+    --footer-font-color: #525253;
     --footer-link-color: #222224;
     --footer-font-size: 0.75rem;
     --footer-font-weight: 400;
@@ -392,7 +392,7 @@ footer .third-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 980px;
+    width: 100%;
     height: 54px;
     gap: 0.5em;
 }
@@ -439,9 +439,10 @@ footer .row3-bottom-middle {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 }
 
 footer .row3-bottom-middle a:not(:last-child) {
     border-right: 1px solid var(--footer-link-color);
+    padding-right: 1.5em;
 }
