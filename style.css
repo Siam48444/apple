@@ -324,3 +324,10 @@ header nav ul li a:hover {
     transform: translateX(0.5em);
 }
 
+footer {
+    background-color: red;
+    width: 880.25px;
+    height: 980px;
+    margin: auto;
+    padding: 1.0625em 1.375em;
+}
