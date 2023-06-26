@@ -335,7 +335,7 @@ footer .first-row {
     font-weight: var(--footer-font-weight);
 }
 
-footer .first-row p > a {
+footer .first-row p a {
     color: var(--footer-link-color);
 }
 
@@ -386,4 +386,62 @@ footer .second-row .column a {
 
 footer .second-row .column a:hover {
     text-decoration: underline;
+}
+
+footer .third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 980px;
+    height: 54px;
+    gap: 0.5em;
+}
+
+footer .third-row p {
+    columns: var(--footer-font-color);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+}
+
+footer .third-row .border {             
+    width: 100%;
+    height: 1px;
+    background-color: var(--footer-font-color);
+    margin: 0;
+}
+
+footer .row3-bottom-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+footer .third-row p {
+    color: var(--footer-font-color);
+}
+
+footer .third-row p a {
+    color: var(--global-link-color);
+}
+
+footer :is(.US, .row3-bottom-area) a {
+    text-decoration: none;
+    color: var(--footer-link-color);
+    font-weight: var(--footer-font-weight);
+    font-size: var(--footer-font-size);
+}
+
+footer :is(.US, .row3-bottom-area) a:hover {
+    text-decoration: underline;
+}
+
+footer .row3-bottom-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5em;
+}
+
+footer .row3-bottom-middle a:not(:last-child) {
+    border-right: 1px solid var(--footer-link-color);
 }
