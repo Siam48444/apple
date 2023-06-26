@@ -17,6 +17,8 @@
     --global-link-light-color: #2997FF;
     --footer-font-color: #69696d;
     --footer-link-color: #3b3b3d;
+    --footer-font-size: 0.75rem;
+    --footer-font-weight: 400;
 }
 
 body {
@@ -333,8 +335,8 @@ footer {
 footer .first-row {
     background-color: var(--global-body-color);
     color: var(--footer-font-color);
-    font-size: 0.75rem;
-    font-weight: 400;
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
 }
 
 footer .first-row p > a {
