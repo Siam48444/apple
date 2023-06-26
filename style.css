@@ -36,7 +36,7 @@ header {
 }
 
 header nav {
-    width: 1240px;
+    width: 77.8125em;
     margin: auto;
 }
 
@@ -45,7 +45,7 @@ header nav ul li {
     align-items: center;
     justify-content: space-around;
     gap: 0.5em;
-    margin: 0 7.53125em;
+    margin: 0 6em;
     padding: 0 1.375em;
     list-style: none;
 }
@@ -140,7 +140,7 @@ header nav ul li a:hover {
     opacity: 1;
 }
 
-.main1 .mb-air-links :is(.learn-more svg, .buy svg) {
+.main1 .mb-air-links :is(.learn-more, .buy) svg {
     fill: var(--global-link-color);
     transition: transform 300ms;
 }
@@ -218,13 +218,13 @@ header nav ul li a:hover {
     opacity: 1;
 }
 
-.main2 .college-save-shop:hover #svg-s {
-    transform: translateX(0.5em);
-}
-
 .main2 .college-save-shop svg {
     fill: var(--global-link-color);
     transition: transform 300ms;
+}
+
+.main2 .college-save-shop:hover #svg-s {
+    transform: translateX(0.5em);
 }
 
 .main2 img {
@@ -276,15 +276,13 @@ header nav ul li a:hover {
     margin-top: 1em;
 }
 
-.main3 .iphone-links .learn-more,
-.main3 .iphone-links .buy {
+.main3 .iphone-links :is(.learn-more, .buy) {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main3 .iphone-links .learn-more a,
-.main3 .iphone-links .buy a {
+.main3 .iphone-links :is(.learn-more a, .buy a) {
     cursor: pointer;
     color: var(--global-link-light-color);
     font-size: 1.2rem;
@@ -293,8 +291,7 @@ header nav ul li a:hover {
     position: relative;
 }
 
-.main3 .iphone-links .learn-more a::after,
-.main3 .iphone-links .buy a::after {
+.main3 .iphone-links :is(.learn-more a, .buy a)::after {
     content: "";
     width: 100%;
     height: .1em;
@@ -306,20 +303,17 @@ header nav ul li a:hover {
     transition: opacity 300ms;
 }
 
-.main3 .iphone-links .learn-more a:hover::after,
-.main3 .iphone-links .buy a:hover::after {
+.main3 .iphone-links :is(.learn-more a, .buy a):hover::after {
     opacity: 1;
 }
 
 
-.main3 .iphone-links .learn-more svg,
-.main3 .iphone-links .buy svg {
+.main3 .iphone-links :is(.learn-more, .buy) svg {
     fill: var(--global-link-light-color);
     transition: transform 300ms;
 }
 
-.main3 .iphone-links .learn-more:hover #svg-lm2,
-.main3 .iphone-links .buy:hover #svg-b2 {
+.main3 .iphone-links :is(.learn-more, .buy):hover :is(#svg-lm, #svg-b) {
     transform: translateX(0.5em);
 }
 
@@ -328,7 +322,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2.1875em;
-    outline: 1px solid red; /*delete*/
     width: 1000px;
     height: 980px;
     margin: auto;
