@@ -35,6 +35,11 @@ header {
     backdrop-filter: blur(5px);
 }
 
+header nav {
+    width: 1240px;
+    margin: auto;
+}
+
 header nav ul li {
     display: flex;
     align-items: center;
@@ -329,11 +334,11 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2.1875em;
-    outline: 2px solid red;
-    width: 950px;
+    outline: 1px solid red; /*delete*/
+    width: 1000px;
     height: 980px;
     margin: auto;
-    padding: 1.0625em 1.375em;
+    padding: 1.0625em 0.5em;
 }
 
 footer .first-row {
