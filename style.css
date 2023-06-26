@@ -451,14 +451,11 @@ footer .row3-bottom-middle a:not(:last-child) {
     margin: auto;
     display: grid;
     margin-block: 0.5em;
-    gap: 0.5em;
+    gap: 0.75em;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: 
-                            "top-left top-right"
-                            "middle-left middle-right"
-                            "bottom-left bottom-right";
-    width: 100%;
+    grid-template-areas: none;
+    width: 1233px;
     height: 1764px;
 } 
 
@@ -468,37 +465,31 @@ footer .row3-bottom-middle a:not(:last-child) {
 }
 
 .div1 {
-    grid-area: top-left;
     background-image: url(images/iphone-14.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .div2 {
-    grid-area: top-right;
     background-image: url(images/vision-pro.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .div3 {
-    grid-area: middle-left;
     background-image: url(images/watch.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .div4 {
-    grid-area: middle-right;
     background-image: url(images/ipad-pro.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .div5 {
-    grid-area: bottom-left;
     background-image: url(images/trade-in.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .div6 {
-    grid-area: bottom-right;
     background-image: url(images/card.jpg);
     background-repeat: no-repeat;
     background-position: center;
