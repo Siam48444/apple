@@ -353,7 +353,6 @@ footer .border {
 footer .second-row {
     width: 100%;
     height: 440px;
-    outline: red 1px solid; /*delete*/
     display: flex;
     justify-content: space-between;
     gap: 1.25em;
