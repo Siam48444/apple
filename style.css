@@ -15,8 +15,8 @@
     --global-font-color: #1d1d1f;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
-    --footer-font-color: #69696d;
-    --footer-link-color: #3b3b3d;
+    --footer-font-color: #515153;
+    --footer-link-color: #222224;
     --footer-font-size: 0.75rem;
     --footer-font-weight: 400;
 }
@@ -348,4 +348,47 @@ footer .border {
     height: 1px;
     background-color: var(--footer-font-color);
     margin: 0;
+}
+
+footer .second-row {
+    width: 100%;
+    height: 440px;
+    outline: red 1px solid; /*delete*/
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25em;
+    background-color: var(--global-body-color);
+    color: var(--footer-font-color);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+    position: relative;
+}
+
+footer .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2em;
+    width: 20%;
+}
+
+footer .column-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: left;
+}
+
+footer .second-row .column p {
+    color: var(--footer-link-color);
+    font-weight: 500;
+}
+
+footer .second-row .column a {
+    color: var(--footer-font-color);
+    text-decoration: none;
+}
+
+footer .second-row .column a:hover {
+    text-decoration: underline;
 }
