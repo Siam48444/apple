@@ -325,7 +325,9 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid red;
     width: 880.25px;
     height: 980px;
     margin: auto;
