@@ -16,6 +16,7 @@
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
     --footer-font-color: #69696d;
+    --footer-link-color: #1b1b1b;
 }
 
 body {
@@ -333,4 +334,8 @@ footer .first-row {
     color: var(--footer-font-color);
     font-size: 0.75rem;
     font-weight: 400;
+}
+
+footer .first-row > a {
+    color: var(--footer-link-color);
 }
