@@ -15,7 +15,7 @@
     --global-font-color: #1d1d1f;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
-    --footer-font-color: #48484b;
+    --footer-font-color: #69696d;
 }
 
 body {
@@ -327,9 +327,16 @@ header nav ul li a:hover {
 footer {
     display: flex;
     flex-direction: column;
+    gap: 2.1875em;
     outline: 2px solid red;
-    width: 880.25px;
+    width: 950px;
     height: 980px;
     margin: auto;
     padding: 1.0625em 1.375em;
+}
+
+footer .first-row {
+    color: var(--footer-font-color);
+    font-size: 0.75rem;
+    font-weight: 400;
 }
