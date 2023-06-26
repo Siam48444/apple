@@ -325,6 +325,7 @@ header nav ul li a:hover {
 }
 
 footer {
+    background-color: var(--global-body-color);
     display: flex;
     flex-direction: column;
     gap: 2.1875em;
@@ -336,6 +337,7 @@ footer {
 }
 
 footer .first-row {
+    background-color: var(--global-body-color);
     color: var(--footer-font-color);
     font-size: 0.75rem;
     font-weight: 400;
