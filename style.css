@@ -346,6 +346,4 @@ footer .border {
     height: 1px;
     background-color: var(--footer-font-color);
     margin: 0;
-    padding: 0;
-    border: none;
 }
