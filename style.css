@@ -230,10 +230,6 @@ header nav ul li a:hover {
     transform: translateX(0.5em);
 }
 
-.main2 img {
-    width: 1265px;
-}
-
 .main3 {
     overflow: hidden;
     align-items: center;
