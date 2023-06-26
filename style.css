@@ -109,15 +109,13 @@ header nav ul li a:hover {
     margin-top: 1em;
 }
 
-.main1 .mb-air-links .learn-more,
-.main1 .mb-air-links .buy {
+.main1 .mb-air-links :is(.learn-more, .buy) {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main1 .mb-air-links .learn-more a, 
-.main1 .mb-air-links .buy a {
+.main1 .mb-air-links :is(.learn-more a, .buy a) {
     cursor: pointer;
     color: var(--global-link-color);
     font-size: 1.2rem;
@@ -126,8 +124,7 @@ header nav ul li a:hover {
     position: relative;
 }
 
-.main1 .mb-air-links .learn-more a::after,
-.main1 .mb-air-links .buy a::after {
+.main1 .mb-air-links :is(.learn-more a, .buy a)::after {
     content: "";
     width: 100%;
     height: .1em;
@@ -139,20 +136,17 @@ header nav ul li a:hover {
     transition: opacity 300ms;
 }
 
-.main1 .mb-air-links .learn-more a:hover::after,
-.main1 .mb-air-links .buy a:hover::after {
+.main1 .mb-air-links :is(.learn-more a, .buy a):hover::after {
     opacity: 1;
 }
 
-.main1 .mb-air-links .learn-more:hover #svg-lm,
-.main1 .mb-air-links .buy:hover #svg-b {
-    transform: translateX(0.5em);
-}
-
-.main1 .mb-air-links .learn-more svg,
-.main1 .mb-air-links .buy svg {
+.main1 .mb-air-links :is(.learn-more svg, .buy svg) {
     fill: var(--global-link-color);
     transition: transform 300ms;
+}
+
+.main1 .mb-air-links :is(.learn-more, .buy):hover :is(#svg-lm, #svg-b) {
+    transform: translateX(0.5em);
 }
 
 .main2 {
