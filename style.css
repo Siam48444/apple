@@ -455,7 +455,6 @@ footer .row3-bottom-middle a:not(:last-child) {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: none;
-    width: 1233px;
     height: 1764px;
 } 
 
