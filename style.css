@@ -616,3 +616,8 @@ footer .row3-bottom-middle a:not(:last-child) {
     color: var(--red-watch-color);
     font-size: 1.1rem;
 }
+
+.div3 .div-items .watch-link :is(a, svg) {
+    color: var(--global-link-light-color);
+    fill: var(--global-link-light-color);
+}
