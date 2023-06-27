@@ -4,12 +4,6 @@
     }
 }
 
-@media (min-width: 1397px) {
-    .section1 {
-        width: 1397px;
-    }
-}
-
 @media (min-width: 1571px) {
     .section1 {
         width: 1571px;
