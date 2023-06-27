@@ -671,7 +671,7 @@ footer .row3-bottom-middle a:not(:last-child) {
     width: 1255px;
     height: 532px;
     margin: auto;
-    margin-bottom: 3em;
+    margin-block: 2em;
     padding: 0;
     overflow: hidden;
 }
