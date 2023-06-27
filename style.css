@@ -447,6 +447,10 @@ footer .row3-bottom-middle a:not(:last-child) {
     padding-right: 1.5em;
 }
 
+.border {
+    opacity: 0.5;
+}
+
 .section1 {
     margin: auto;
     display: grid;
@@ -516,11 +520,52 @@ footer .row3-bottom-middle a:not(:last-child) {
 }
 
 .div-items h2 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 
 .div-items p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.div-items .section1-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+    margin-top: 1em;
+}
+
+.div-items :is(.learn-more, .buy) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-items .section1-links :is(a, svg) {
+    color: var(--global-link-color);
+    fill: var(--global-link-color);
+    text-decoration: none;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.section1 svg {
+    transition: transform 300ms;
+}
+
+.div-items :is(.learn-more, .buy):hover :is(svg) {
+    transform: translateX(0.5em);
+}
+
+.div-items .section1-links a::after {
+    content: "";
+    width: 100%;
+    height: 0.1em;
+    background-color: var(--global-link-color);
+    position: absolute;
+    bottom: 0.05em;
+    left: 0;
 }
