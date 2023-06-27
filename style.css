@@ -621,3 +621,27 @@ footer .row3-bottom-middle a:not(:last-child) {
     color: var(--global-link-light-color);
     fill: var(--global-link-light-color);
 }
+
+.div4 .div-items :is(h2, h3) {
+    color: var(--global-font-color-2);
+}
+
+.div4 .div-items .m2-chip .m2 {
+    height: 40px;
+    width: 40px;
+    background-image: url(images/m2-chip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.div4 .div-items .m2-chip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.div4 .div-items h3 {
+    font-weight: 400;
+}
