@@ -37,7 +37,7 @@ header {
     background-color: var(--global-background-color);
     position: fixed;
     top: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7.5px);
 }
 
 header nav {
