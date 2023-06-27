@@ -521,7 +521,7 @@ footer .row3-bottom-middle a:not(:last-child) {
     top: 3em;
 }
 
-.div-items h2 {
+.div-items h2, .div-items .watch {
     font-size: 2.6rem;
     font-weight: 700;
 }
@@ -582,7 +582,7 @@ footer .row3-bottom-middle a:not(:last-child) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2em;
+    gap: 0.5em;
 }
 
 .div-items svg {
@@ -603,16 +603,16 @@ footer .row3-bottom-middle a:not(:last-child) {
     gap: 0;
 }
 
-.div2 .div-items :is(.logo-div svg) {
-    fill: ;       /*define the color later*/
+.div-items :is(.vision-pro, .trade-in, .card) svg {
+    fill: var(--global-font-color);       /*define the color later*/
 }
 
-.div3 .div-items :is(.logo-div h2, .logo-div svg, :nth-child(3)) {
+.div3 .div-items :is(.logo-div svg, :nth-child(3)) {
     color: var(--global-font-color-2);
-    fill: ;       /*define the color later*/
+    fill: var(--global-font-color-2);       /*define the color later*/
 }
 
-.div3 :nth-child(2) {
+.div3 :nth-child(2):not(h2) {
     color: var(--red-watch-color);
     font-size: 1.1rem;
 }
@@ -620,6 +620,10 @@ footer .row3-bottom-middle a:not(:last-child) {
 .div3 .div-items .watch-link :is(a, svg) {
     color: var(--global-link-light-color);
     fill: var(--global-link-light-color);
+}
+
+.div3 .watch {
+    color: var(--global-font-color-2);
 }
 
 .div4 .div-items :is(h2, h3) {
