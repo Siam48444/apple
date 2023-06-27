@@ -584,7 +584,5 @@ footer .row3-bottom-middle a:not(:last-child) {
 }
 
 .div-items svg {
-    width: 35px;
-    height: 35px;
     fill: var(--global-font-color);
 }
