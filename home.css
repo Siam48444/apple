@@ -666,25 +666,3 @@ footer .row3-bottom-middle a:not(:last-child) {
 .div6 .div-items p {
     text-align: center;
 }
-
-.section2 {
-    width: 1255px;
-    height: 532px;
-    margin: auto;
-    margin-block: 2em;
-    padding: 0;
-    overflow: hidden;
-}
-
-.section2 .slider {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    margin: auto;
-}
-
-.section2 .slider a img {
-    height: 532px;
-    width: 980px;
-    border-radius: 1.5em;
-}
