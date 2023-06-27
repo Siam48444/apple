@@ -645,3 +645,8 @@ footer .row3-bottom-middle a:not(:last-child) {
 .div4 .div-items h3 {
     font-weight: 400;
 }
+
+.div4 .div-items .ipad-link :is(a, svg) {
+    color: var(--global-link-light-color);
+    fill: var(--global-link-light-color);
+}
