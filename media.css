@@ -2,34 +2,58 @@
     .section1 {
         width: 1397px;
     }
+    
+    .section2 {
+        width: 1397px;
+    } 
 }
 
 @media (min-width: 1571px) {
     .section1 {
         width: 1571px;
     }
+
+    .section2 {
+        width: 1571px;
+    } 
 }
 
 @media (min-width: 1676px) {
     .section1 {
         width: 1676px;
     }
+
+    .section2 {
+        width: 1676px;
+    } 
 }
 
 @media (min-width: 1885.5px) {
     .section1 {
         width: 1885.5px;
     }
+
+    .section2 {
+        width: 1885.5px;
+    } 
 }
 
 @media (min-width: 2514px) {
     .section1 {
         width: 2514px;
     }
+
+    .section2 {
+        width: 2514px;
+    } 
 }
 
 @media (min-width: 3771px) {
     .section1 {
         width: 3000px;
     }
+
+    .section2 {
+        width: 3000px;
+    } 
 }
