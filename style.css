@@ -568,4 +568,10 @@ footer .row3-bottom-middle a:not(:last-child) {
     position: absolute;
     bottom: 0.05em;
     left: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.div-items .section1-links a:hover::after {
+    opacity: 1;
 }
