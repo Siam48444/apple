@@ -13,12 +13,14 @@
     --global-background-color: #fbfbfdcc;
     --global-body-color: #f5f5f7;
     --global-font-color: #1d1d1f;
+    --global-font-color-2: #ffffff;
     --global-link-color: #0066CC;
     --global-link-light-color: #2997FF;
     --footer-font-color: #525253;
     --footer-link-color: #222224;
     --footer-font-size: 0.75rem;
     --footer-font-weight: 400;
+    --red-watch-color: #ef233c;
 }
 
 body {
@@ -452,6 +454,7 @@ footer .row3-bottom-middle a:not(:last-child) {
 }
 
 .section1 {
+    overflow: hidden;
     margin: auto;
     display: grid;
     margin-block: 0.5em;
@@ -471,7 +474,6 @@ footer .row3-bottom-middle a:not(:last-child) {
     background-color: var(--global-body-color);
     position: relative;
     overflow: hidden;
-    outline: red 1px solid;   /*delete later*/
 }
 
 .div1 {
@@ -589,4 +591,28 @@ footer .row3-bottom-middle a:not(:last-child) {
 
 .div2 .div-items {
     top: 22em;
+}
+
+.div2 .div-items :nth-child(3) {
+    font-size: 1rem;
+    color: var(--footer-font-color);
+    font-weight: 300;
+}
+
+.div2 .div-items :nth-child(4) {
+    gap: 0;
+}
+
+.div2 .div-items :is(.logo-div svg) {
+    fill: ;       /*define the color later*/
+}
+
+.div3 .div-items :is(.logo-div h2, .logo-div svg, :nth-child(3)) {
+    color: var(--global-font-color-2);
+    fill: ;       /*define the color later*/
+}
+
+.div3 :nth-child(2) {
+    color: var(--red-watch-color);
+    font-size: 1.1rem;
 }
