@@ -575,3 +575,16 @@ footer .row3-bottom-middle a:not(:last-child) {
 .div-items .section1-links a:hover::after {
     opacity: 1;
 }
+
+.div-items .logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.div-items svg {
+    width: 35px;
+    height: 35px;
+    fill: var(--global-font-color);
+}
