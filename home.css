@@ -666,3 +666,21 @@ footer .row3-bottom-middle a:not(:last-child) {
 .div6 .div-items p {
     text-align: center;
 }
+
+.section2 {
+    height: 705px;
+    width: 3000px;
+    outline: 1px solid red;    /*delete later*/
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 3em;
+}
+
+.section2 .wrapper {
+    height: 100%;
+    width: 3000px;
+    background-color: yellow;
+}
