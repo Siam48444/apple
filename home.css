@@ -558,6 +558,11 @@ footer .first-row {
 
 footer .first-row p a {
     color: var(--footer-link-color);
+    transition: color 300ms;
+}
+
+footer .first-row a:hover {
+    color: var(--global-link-color);
 }
 
 footer .border {
