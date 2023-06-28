@@ -318,141 +318,6 @@ header nav ul li a:hover {
     transform: translateX(0.5em);
 }
 
-footer {
-    background-color: var(--global-body-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5em;
-    width: 1000px;
-    height: 980px;
-    margin: auto;
-    padding: 1.0625em 0.5em;
-}
-
-footer .first-row {
-    background-color: var(--global-body-color);
-    color: var(--footer-font-color);
-    font-size: var(--footer-font-size);
-    font-weight: var(--footer-font-weight);
-}
-
-footer .first-row p a {
-    color: var(--footer-link-color);
-}
-
-footer .border {
-    width: 100%;
-    height: 1px;
-    background-color: var(--footer-font-color);
-    margin: 0;
-}
-
-footer .second-row {
-    width: 100%;
-    height: 440px;
-    display: flex;
-    justify-content: space-between;
-    gap: 1.25em;
-    background-color: var(--global-body-color);
-    color: var(--footer-font-color);
-    font-size: var(--footer-font-size);
-    font-weight: var(--footer-font-weight);
-    position: relative;
-}
-
-footer .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    gap: 2em;
-    width: 20%;
-}
-
-footer .column-items {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    justify-content: left;
-}
-
-footer .second-row .column p {
-    color: var(--footer-link-color);
-    font-weight: 500;
-}
-
-footer .second-row .column a {
-    color: var(--footer-font-color);
-    text-decoration: none;
-}
-
-footer .second-row .column a:hover {
-    text-decoration: underline;
-}
-
-footer .third-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 54px;
-    gap: 0.5em;
-}
-
-footer .third-row p {
-    columns: var(--footer-font-color);
-    font-size: var(--footer-font-size);
-    font-weight: var(--footer-font-weight);
-}
-
-footer .third-row .border {             
-    width: 100%;
-    height: 1px;
-    background-color: var(--footer-font-color);
-    margin: 0;
-}
-
-footer .row3-bottom-area {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-
-footer .third-row p {
-    color: var(--footer-font-color);
-}
-
-footer .third-row p a {
-    color: var(--global-link-color);
-}
-
-footer :is(.US, .row3-bottom-area) a {
-    text-decoration: none;
-    color: var(--footer-link-color);
-    font-weight: var(--footer-font-weight);
-    font-size: var(--footer-font-size);
-}
-
-footer :is(.US, .row3-bottom-area) a:hover {
-    text-decoration: underline;
-}
-
-footer .row3-bottom-middle {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1em;
-}
-
-footer .row3-bottom-middle a:not(:last-child) {
-    border-right: 1px solid var(--footer-link-color);
-    padding-right: 1.5em;
-}
-
-.border {
-    opacity: 0.7;
-}
-
 .section1 {
     overflow: hidden;
     margin: auto;
@@ -665,4 +530,139 @@ footer .row3-bottom-middle a:not(:last-child) {
 
 .div6 .div-items p {
     text-align: center;
+}
+
+footer {
+    background-color: var(--global-body-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    width: 1000px;
+    height: 980px;
+    margin: auto;
+    padding: 1.0625em 0.5em;
+}
+
+footer .first-row {
+    background-color: var(--global-body-color);
+    color: var(--footer-font-color);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+}
+
+footer .first-row p a {
+    color: var(--footer-link-color);
+}
+
+footer .border {
+    width: 100%;
+    height: 1px;
+    background-color: var(--footer-font-color);
+    margin: 0;
+}
+
+footer .second-row {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25em;
+    background-color: var(--global-body-color);
+    color: var(--footer-font-color);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+    position: relative;
+}
+
+footer .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2em;
+    width: 20%;
+}
+
+footer .column-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: left;
+}
+
+footer .second-row .column p {
+    color: var(--footer-link-color);
+    font-weight: 500;
+}
+
+footer .second-row .column a {
+    color: var(--footer-font-color);
+    text-decoration: none;
+}
+
+footer .second-row .column a:hover {
+    text-decoration: underline;
+}
+
+footer .third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    gap: 0.5em;
+}
+
+footer .third-row p {
+    columns: var(--footer-font-color);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+}
+
+footer .third-row .border {             
+    width: 100%;
+    height: 1px;
+    background-color: var(--footer-font-color);
+    margin: 0;
+}
+
+footer .row3-bottom-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+footer .third-row p {
+    color: var(--footer-font-color);
+}
+
+footer .third-row p a {
+    color: var(--global-link-color);
+}
+
+footer :is(.US, .row3-bottom-area) a {
+    text-decoration: none;
+    color: var(--footer-link-color);
+    font-weight: var(--footer-font-weight);
+    font-size: var(--footer-font-size);
+}
+
+footer :is(.US, .row3-bottom-area) a:hover {
+    text-decoration: underline;
+}
+
+footer .row3-bottom-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+footer .row3-bottom-middle a:not(:last-child) {
+    border-right: 1px solid var(--footer-link-color);
+    padding-right: 1.5em;
+}
+
+.border {
+    opacity: 0.7;
 }
