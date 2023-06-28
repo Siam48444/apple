@@ -319,6 +319,7 @@ header nav ul li a:hover {
 }
 
 .section1 {
+    outline: 5px red solid;  /*delete later*/ 
     overflow: hidden;
     margin: auto;
     display: grid;
@@ -536,6 +537,13 @@ header nav ul li a:hover {
 .div6 .div-items p {
     text-align: center;
 }
+
+
+
+
+
+
+
 
 footer {
     background-color: var(--global-body-color);
