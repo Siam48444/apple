@@ -319,7 +319,6 @@ header nav ul li a:hover {
 }
 
 .section1 {
-    outline: 5px red solid;  /*delete later*/ 
     overflow: hidden;
     margin: auto;
     display: grid;
@@ -475,12 +474,12 @@ header nav ul li a:hover {
 }
 
 .div-items :is(.vision-pro, .trade-in, .card) svg {
-    fill: var(--global-font-color);       /*define the color later*/
+    fill: var(--global-font-color);       
 }
 
 .div3 .div-items :is(.logo-div svg, :nth-child(3)) {
     color: var(--global-font-color-2);
-    fill: var(--global-font-color-2);       /*define the color later*/
+    fill: var(--global-font-color-2);      
 }
 
 .div3 :nth-child(2):not(h2) {
@@ -538,9 +537,35 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+.section2 {
+    width: 100%;
+    height: 523px;
+    margin-block: 2em;
+    padding: 0;
+}
 
+.btns {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
 
+.next, .prev {
+    height: 100%;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.233);
+    border: red solid 1px;
+    cursor: pointer;
+}
 
+.slider {
+    outline: green solid 2px;
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 
