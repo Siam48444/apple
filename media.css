@@ -1,7 +1,7 @@
 @media (min-width: 3000px) {
-    .section1 {
+    .section1, .main1, .main2, .main3 {
         width: 3000px;
-    }
+    }   
 }
 
 @media (min-width: 1500px) {
