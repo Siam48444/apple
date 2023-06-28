@@ -543,6 +543,7 @@ header nav ul li a:hover {
     margin-block: 2em;
     padding: 0;
     position: relative;
+    margin: auto;
 }
 
 .btns {
@@ -570,6 +571,21 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
