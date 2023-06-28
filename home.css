@@ -347,30 +347,35 @@ header nav ul li a:hover {
     background-position: center;
     background-size: cover;
 }
+
 .div2 {
     background-image: url(images/vision-pro.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .div3 {
     background-image: url(images/watch.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .div4 {
     background-image: url(images/ipad-pro.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .div5 {
     background-image: url(images/trade-in.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .div6 {
     background-image: url(images/card.jpg);
     background-repeat: no-repeat;
