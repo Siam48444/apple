@@ -66,24 +66,32 @@ header nav ul li a {
     font-size: 0.75rem;
 }
 
-.store-hover {
+.main1 #storeHover {
     outline: red 2px solid;  /*delete*/
     position: absolute;
     position: fixed;
     width: 100%;
     background-color: var(--global-background-color-hover);
     top: 0;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: left;
     padding: 5.5em 8.5em;
     z-index: 5;
-    opacity: ;   /*this will be 0 */
+    opacity: 1; 
+    pointer-events: none;  /*this will be 0 */
+    transition: opacity 300ms;
+}
+
+#store:hover #storeHover {
+    opacity: 1;
+    pointer-events: all;
 }
 
 .main1 {
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin: auto;
     padding: 0;
