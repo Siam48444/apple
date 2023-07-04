@@ -71,7 +71,7 @@ header nav ul li a {
     overflow: hidden;
     margin: auto;
     padding: 0;
-    max-width: 3000px;
+    max-width: 2500px;
     height: 692px;
     background-image: url(images/mac-book-air.jpg);
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ header nav ul li a {
     align-items: center;
     margin: auto;
     padding: 0;
-    max-width: 3000px;
+    max-width: 2500px;
     height: 736px;
     background-image: url(images/college-shop-discount.jpg);
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ header nav ul li a {
     align-items: center;
     margin: auto;
     padding: 0;
-    max-width: 3000px;
+    max-width: 2500px;
     height: 736px;
     background-image: url(images/iphone-14-pro.jpg);
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ header nav ul li a {
     gap: 0.5em;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, auto);
-    max-width: 3000px;
+    max-width: 2500px;
     height: 1764px;
 } 
 
