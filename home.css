@@ -93,12 +93,27 @@ header nav ul li a {
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 120%;
+    opacity: 0;
+    transform: translateY(50%);
+    animation: main1In 800ms forwards ease-in;
 }
 
 .main1 .mb-air-tag {
     color: var(--global-font-color);
     font-size: 1.5rem;
     font-weight: 400;
+    opacity: 0;
+    transform: translateY(70%);
+    animation: main1In 800ms forwards ease-in;
+
+
+}
+
+@keyframes main1In {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .main1 .mb-air-links {
@@ -108,6 +123,9 @@ header nav ul li a {
     gap: 5em;
     z-index: 1;
     margin-top: 1em;
+    opacity: 0;
+    transform: translateY(80%);
+    animation: main1In 800ms forwards ease-in 700ms;
 }
 
 .main1 .mb-air-links :is(.learn-more, .buy) {
